@@ -1,14 +1,16 @@
 public class School {
 
     String name;
-    Srting address;
+    String address;
     String principle;
     int teacherCount;
 
     int studentcount;
 
-    public void displayResult()
+    public static void displayResult()
     {
         System.out.println("Every student passed with flying colors");
     }
+
+
 }
